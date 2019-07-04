@@ -40,6 +40,7 @@ function gradingStudents(grades) {
             if (c == 0) {
                 arr[i] = val;
             }
+            
             else if (c > 2) {
                 arr[i] = val + (5 - c);
             }
